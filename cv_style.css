@@ -1,0 +1,470 @@
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+p,
+em,
+img,
+strong,
+ul,
+li,
+section,
+time {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+article,
+footer,
+header,
+section {
+    display: block;
+}
+
+html,
+body {
+    background: #006363;
+    font-family: 'Raleway', helvetica, arial, sans-serif;
+    font-size: 16px;
+    color: rgb(24, 24, 24);
+}
+
+body em {
+    font-weight: bold;
+    color: #1D7373;
+}
+
+body strong {
+    font-weight: bold;
+    color: #006363;
+}
+
+.clear {
+    clear: both;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+#cv {
+    width: 90%;
+    max-width: 800px;
+    background: #ffffff;
+    margin: 30px auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mainDetails {
+    padding: 25px 25px;
+    border-bottom: 2px solid rgb(137, 137, 186);
+    background: rgb(0, 153, 153);
+    background: -moz-linear-gradient(45deg, rgba(0, 153, 153, 1) 0%, rgba(51, 204, 204, 1) 56%, rgba(51, 204, 204, 1) 56%, rgba(51, 204, 204, 1) 58%, rgba(102, 204, 204, 1) 58%, rgba(102, 204, 204, 1) 58%, rgba(92, 204, 204, 1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(0, 153, 153, 1) 0%, rgba(51, 204, 204, 1) 56%, rgba(51, 204, 204, 1) 56%, rgba(51, 204, 204, 1) 58%, rgba(102, 204, 204, 1) 58%, rgba(102, 204, 204, 1) 58%, rgba(92, 204, 204, 1) 100%);
+    background: linear-gradient(45deg, rgba(0, 153, 153, 1) 0%, rgba(51, 204, 204, 1) 56%, rgba(51, 204, 204, 1) 56%, rgba(51, 204, 204, 1) 58%, rgba(102, 204, 204, 1) 58%, rgba(102, 204, 204, 1) 58%, rgba(92, 204, 204, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#009999', endColorstr='#5ccccc', GradientType=1);
+}
+
+#name h2 {
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    margin-bottom: -6px;
+    color: #2A4480;
+}
+
+#name h3 {
+    font-size: 2em;
+    margin-left: 2px;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+    padding: 0px 25px;
+}
+
+#name {
+    float: left;
+}
+
+#contactDetails {
+    float: right;
+}
+
+#contactDetails i {
+    margin-right: 10px;
+}
+
+#contactDetails ul {
+    list-style-type: none;
+    margin-top: 2px;
+}
+
+#contactDetails ul li {
+    margin-bottom: 3px;
+    color: #006363;
+    font-size: 17px;
+}
+
+#contactDetails ul li a,
+a[href^=tel] {
+    color: #444;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+#contactDetails ul li a:hover {
+    color: #FF9640;
+}
+
+#sectionContentExp a,
+#sectionContentEducation a {
+    color: #006363;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+#sectionContentExp a:hover,
+#sectionContentEducation a:hover {
+    color: #FF9640;
+}
+
+section {
+    border-top: 1px solid #FFB273;
+    padding: 20px 0 0;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+section:first-child {
+    border-top: 0;
+}
+
+section:last-child {
+    padding: 20px 0 10px;
+}
+
+.sectionTitle {
+    float: left;
+    width: 25%;
+}
+
+.sectionContent {
+    float: right;
+    width: 72.5%;
+    padding-top: 10px;
+}
+
+.sectionTitle h2 {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-style: bold;
+    font-size: 1.8em;
+    color: rgb(255, 116, 0);
+}
+
+.sectionTitle h5 {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-style: bold;
+    font-size: 1em;
+    color: rgb(255, 116, 0);
+}
+
+.hobbies i {
+    font-size: 2em;
+    color: #006363;
+}
+
+.sectionContent h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #A64B00;
+}
+
+.skills h3 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #A64B00;
+}
+
+.contentHeader {
+    font-weight: bold;
+}
+
+.contentDate {
+    float: right;
+}
+
+.sectionContent ol,
+ul {
+    margin-left: 35px;
+}
+
+.subDetails {
+    font-size: 0.95em;
+    color: dimgray;
+    margin-bottom: 2px;
+}
+
+.skills {
+    float: right;
+    width: 72.5%;
+    padding-top: 10px;
+}
+
+.skills li {
+    margin: 0 0 6px 0;
+}
+
+.skills ul,
+ol {
+    margin-left: 15px;
+}
+
+footer {
+    background-color: #5CCCCC;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+mark {
+    background-color: #ffecdd;
+}
+
+.round {
+    border-radius: 100px;
+    border: 3px solid #33CCCC;
+    box-shadow: 0 0 7px #006363;
+}
+
+.container {
+    width: 72.5%;
+    float: right;
+    padding-top: 10px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-flow: wrap;
+}
+
+.box {
+    width: 48%;
+    height: 55%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+    .keySkills {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+    .box {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 601px) {
+    #cv {
+        width: 95%;
+        margin: 10px auto;
+        min-width: 280px;
+    }
+    .box {
+        width: 90%;
+    }
+    #name,
+    #contactDetails {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+    .sectionTitle {
+        margin-left: -2px;
+        font-size: 1.25em;
+    }
+    .sectionTitle,
+    .sectionContent,
+    .skills,
+    .container {
+        float: none;
+        width: 100%;
+    }
+    .keySkills {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .mainDetails {
+        padding: 15px 15px;
+    }
+    section {
+        padding: 15px 0 0;
+    }
+    #mainArea {
+        padding: 0 25px;
+    }
+    .box {
+        width: 90%;
+    }
+    .keySkills {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+    #name h2 {
+        line-height: .8em;
+        margin-bottom: 4px;
+    }
+}
+
+@media print {
+    #cv {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes reset {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes reset {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes reset {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.instaFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-timing-function: ease-in;
+    animation-name: reset, fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+
+.quickFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 2.5s;
+    -moz-animation-timing-function: ease-in;
+    animation-name: reset, fade-in;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+}
+
+.delayOne {
+    -webkit-animation-delay: 0, .5s;
+    -moz-animation-delay: 0, .5s;
+    animation-delay: 0, .5s;
+}
+
+.delayTwo {
+    -webkit-animation-delay: 0, 1s;
+    -moz-animation-delay: 0, 1s;
+    animation-delay: 0, 1s;
+}
+
+.delayThree {
+    -webkit-animation-delay: 0, 1.5s;
+    -moz-animation-delay: 0, 1.5s;
+    animation-delay: 0, 1.5s;
+}
+
+.delayFour {
+    -webkit-animation-delay: 0, 2s;
+    -moz-animation-delay: 0, 2s;
+    animation-delay: 0, 2s;
+}
+
+.delayFive {
+    -webkit-animation-delay: 0, 2.5s;
+    -moz-animation-delay: 0, 2.5s;
+    animation-delay: 0, 2.5s;
+}
